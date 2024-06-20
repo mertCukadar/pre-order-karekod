@@ -24,7 +24,7 @@ export default function ContactUs() {
       }
 
       const result = await response.json();
-      alert(`Mesajınız iletildi!\n\nAd: ${name}\nEmail: ${email}\nTelefon: ${phone}\nMesaj: ${message}\nSonuç: ${JSON.stringify(result)}`);
+      alert(`Mesajınız iletildi! \n\n Ekip arkadaşlarımız en kısa sürede sizinle iletişime geçeceklerdir.`);
     } catch (error) {
       console.error('API request error:', error);
       alert('Mesajınız iletilemedi. Lütfen tekrar deneyin.');
