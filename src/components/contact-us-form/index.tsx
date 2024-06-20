@@ -11,7 +11,7 @@ export default function ContactUs() {
     e.preventDefault();
 
     try {
-      const response = await fetch('/api/preorder', {
+      const response = await fetch('https://9wirpkaf35.execute-api.eu-central-1.amazonaws.com/dev/CollectRequestForm', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

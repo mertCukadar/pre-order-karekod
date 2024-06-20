@@ -28,8 +28,9 @@ export default function HomePage() {
           <ContactUs />
         </div>
       </div>
-      <footer className="w-full py-4 bg-gray-100 text-gray-600 text-center">
+      <footer className="w-full py-4 bg-gray-100 text-gray-600 text-center justify-between flex px-9">
         <p>&copy; 2024 Karekod Bildirim Sistemi. Tüm hakları saklıdır.</p>
+        <p>+90 549 538 38 37</p>
       </footer>
     </div>
   );
