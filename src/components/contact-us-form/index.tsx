@@ -39,7 +39,7 @@ export default function ContactUs() {
 
   return (
     <div id="contact-form" className="min-h-screen flex items-center justify-center p-2">
-      <div className="bg-white p-8 rounded shadow-md w-full max-w-md">
+      <div className="bg-white p-8 rounded shadow-md w-full max-w-md text-black">
         <h1 className="text-2xl font-bold mb-6 text-gray-800 text-center">Bize Ulaşın</h1>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
